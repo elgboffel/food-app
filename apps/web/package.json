@@ -1,0 +1,40 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mantine/core": "7.2.2",
+    "@mantine/hooks": "7.2.2",
+    "@mantine/vanilla-extract": "7.2.2",
+    "@meilisearch/instant-meilisearch": "1.0.0",
+    "@vanilla-extract/css": "1.14.0",
+    "@vanilla-extract/recipes": "0.5.1",
+    "css-presets": "*",
+    "instantsearch.css": "^8.1.0",
+    "next": "14.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-instantsearch": "7.4.1",
+    "react-instantsearch-dom": "6.40.4",
+    "ui": "*",
+    "search": "*"
+  },
+  "devDependencies": {
+    "@types/node": "20.9.0",
+    "@types/react": "18.2.37",
+    "@types/react-dom": "18.2.15",
+    "@types/react-instantsearch-dom": "^6.12.7",
+    "@vanilla-extract/next-plugin": "2.3.2",
+    "database": "*",
+    "eslint": "8.53.0",
+    "eslint-config-custom": "*",
+    "tsconfig": "*",
+    "typescript": "5.2.2"
+  }
+}

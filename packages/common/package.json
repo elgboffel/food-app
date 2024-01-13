@@ -1,0 +1,30 @@
+{
+  "name": "common",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "./src/index.ts",
+  "module": "./dist/index.mjs",
+  "types": "./src/index.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "@types/isomorphic-fetch": "0.0.39",
+    "graphql": "16.8.1",
+    "isomorphic-fetch": "3.0.0",
+    "eslint": "8.53.0",
+    "eslint-config-custom": "*",
+    "tsconfig": "*",
+    "tsup": "7.2.0",
+    "typescript": "5.2.2",
+    "vitest": "0.34.6"
+  }
+}

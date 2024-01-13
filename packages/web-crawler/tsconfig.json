@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"lib": ["dom", "ES2019"]
+	},
+	"extends": "tsconfig/node.json",
+	"include": ["."],
+	"exclude": ["dist", "build", "node_modules"]
+}

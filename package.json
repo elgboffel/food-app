@@ -1,0 +1,37 @@
+{
+  "name": "food-app",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "dev": "turbo run dev",
+    "db.migrate.deploy": "turbo run db.migrate.deploy",
+    "db.push": "turbo run db.push",
+    "db.seed": "turbo run db.seed",
+    "index.seed": "turbo run index.seed",
+    "generate": "turbo run generate",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-custom": "*",
+    "prettier": "3.1.0",
+    "turbo": "1.10.16"
+  },
+  "packageManager": "npm@10.2.3",
+  "engines": {
+    "node": ">=21.2.0",
+    "npm": ">=10.2.3"
+  },
+  "volta": {
+    "node": "21.2.0",
+    "npm": "10.2.3"
+  }
+}
